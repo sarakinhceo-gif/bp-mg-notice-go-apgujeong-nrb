@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-ledger-warm">
+    <title>비교 분석 — 서울 야간 업종별 투명성 가이드</title>
+    <meta name="description" content="서울 내 다양한 야간 유흥 업종(셔츠룸, 룸싸롱, 가라오케 등)의 이용 전 필수 주의사항, 투명한 가격 검증법, 위생 및 예약 사기 예방 체크리스트를 투명하게 공개합니다.">
+    <meta name="keywords" content="유흥 이용 주의사항, 셔츠룸 주의사항, 가라오케 가격, 서울 유흥 비교, 위생 체크리스트">
+    <link rel="canonical" href="https://notice.go-apgujeong-nrb.xyz/blog-2.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="유흥 이용 주의사항 — 내상 방지를 위한 업종별 투명성 비교 가이드">
+    <meta property="og:description" content="서울 내 다양한 야간 유흥 업종의 불투명한 가격 산정 방식을 고발하고, 소비자가 주도권을 잡을 수 있는 검증된 체크리스트를 제공합니다.">
+    <meta property="og:url" content="https://notice.go-apgujeong-nrb.xyz/blog-2.html">
+
+    <style>
+        /* CSS RESET & VARIABLES */
+        :root {
+            --bg-color: #fbfaf7;
+            --text-color: #1c1c1e;
+            --accent-color: #b91c1c;
+            --border-color: #1c1c1e;
+            --card-bg: #ffffff;
+            --ledger-gray: #f3f1eb;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-family);
+            line-height: 1.6;
+            padding: 0 1.5rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* BRUTALIST & LEDGER DNA */
+        .r-item-2lm1 {
+            border: 2px solid var(--border-color);
+            padding: 2.5rem;
+            background: var(--card-bg);
+            box-shadow: 6px 6px 0px var(--border-color);
+            margin-bottom: 2.5rem;
+            position: relative;
+        }
+
+        .r-item-2lm1::before {
+            content: "LEDGER ENTRY";
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            background: var(--accent-color);
+            color: #fff;
+            font-size: 0.65rem;
+            font-weight: 900;
+            padding: 2px 8px;
+            letter-spacing: 0.1em;
+            border: 1px solid var(--border-color);
+        }
+
+        /* HEADER */
+        .x-box-crev {
+            border-bottom: 3px double var(--border-color);
+            padding: 2rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+
+        .x-box-crev .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .x-box-crev .logo span {
+            background-color: var(--accent-color);
+            color: #fff;
+            padding: 2px 8px;
+            font-size: 0.8rem;
+        }
+
+        /* DESKTOP NAV */
+        .n-side-39a2-desktop {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .n-side-39a2-desktop a {
+            font-weight: 700;
+            font-size: 0.95rem;
+            position: relative;
+            padding-bottom: 4px;
+        }
+
+        .n-side-39a2-desktop a:hover {
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        /* HAMBURGER MENU FOR MOBILE */
+        .menu-trigger {
+            display: none;
+        }
+
+        .hamburger-label {
+            display: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 5px;
+            z-index: 100;
+        }
+
+        .hamburger-label span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--text-color);
+            transition: 0.3s;
+        }
+
+        /* GRID SYSTEM */
+        .k-grid-zghr {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2rem;
+        }
+
+        .col-12 { grid-column: span 12; }
+        .col-8 { grid-column: span 8; }
+        .col-4 { grid-column: span 4; }
+        .col-6 { grid-column: span 6; }
+
+        /* TYPOGRAPHY & LAYOUT PATTERNS */
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -0.04em;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            color: #3a3a3c;
+        }
+
+        .highlight-red {
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+
+        /* LEDGER TABLE (COMPARISON MATRIX) */
+        .ledger-table-wrapper {
+            overflow-x: auto;
+            margin: 2rem 0;
+            border: 2px solid var(--border-color);
+        }
+
+        .ledger-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            background: #fff;
+        }
+
+        .ledger-table th, .ledger-table td {
+            padding: 1.2rem;
+            border: 1px solid var(--border-color);
+            font-size: 0.95rem;
+        }
+
+        .ledger-table th {
+            background-color: var(--ledger-gray);
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .ledger-table tr:nth-child(even) {
+            background-color: #faf9f6;
+        }
+
+        /* CHECKLIST SYSTEM */
+        .checklist {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        .checklist li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+
+        .checklist li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--accent-color);
+            font-weight: 900;
+            font-size: 1.2rem;
+        }
+
+        /* WARNING BANNER */
+        .warning-banner {
+            background-color: var(--accent-color);
+            color: #fff;
+            padding: 2rem;
+            border: 2px solid var(--border-color);
+            box-shadow: 4px 4px 0px var(--border-color);
+            margin-bottom: 3rem;
+        }
+
+        .warning-banner h3 {
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+        }
+
+        .warning-banner p {
+            color: #fca5a5;
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+
+        /* FAQ SECTION */
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-size: 1.15rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .faq-question span {
+            color: var(--accent-color);
+        }
+
+        .faq-answer {
+            font-size: 1rem;
+            color: #48484a;
+            padding-left: 1.5rem;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 2px solid var(--border-color);
+            padding: 3rem 0;
+            margin-top: 5rem;
+            font-size: 0.85rem;
+            color: #636366;
+            text-align: center;
+        }
+
+        /* RESPONSIVE DESIGN (768px) */
+        @media (max-width: 768px) {
+            body {
+                padding: 0 1rem;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            .k-grid-zghr {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .hamburger-label {
+                display: flex;
+            }
+
+            .n-side-39a2-desktop {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background-color: var(--bg-color);
+                border-bottom: 2px solid var(--border-color);
+                padding: 2rem 1.5rem;
+                gap: 1.5rem;
+                z-index: 99;
+            }
+
+            .menu-trigger:checked ~ .n-side-39a2-desktop {
+                display: flex;
+            }
+
+            .menu-trigger:checked ~ .hamburger-label span:nth-child(1) {
+                transform: rotate(45deg) translate(6px, 6px);
+            }
+
+            .menu-trigger:checked ~ .hamburger-label span:nth-child(2) {
+                opacity: 0;
+            }
+
+            .menu-trigger:checked ~ .hamburger-label span:nth-child(3) {
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="x-box-crev">
+        <a href="https://notice.go-apgujeong-nrb.xyz" class="logo">
+            <span>VERIFIED</span> NIGHTLIFE LEDGER
+        </a>
+        <input type="checkbox" id="menu-toggle" class="menu-trigger">
+        <label for="menu-toggle" class="hamburger-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="n-side-39a2-desktop">
+            <a href="https://notice.go-apgujeong-nrb.xyz">홈</a>
+            <a href="#comparison">업종별 비교</a>
+            <a href="#warnings">주의사항</a>
+            <a href="#checklist">위생 체크리스트</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="k-grid-zghr">
+        
+        <!-- HERO SECTION -->
+        <section class="col-12">
+            <h1>불투명한 정보의 시대는 끝났다.<br>서울 야간 업종별 투명성 검증 비교 리포트</h1>
+            <p style="font-size: 1.25rem; font-weight: 500; max-width: 800px; margin-bottom: 2.5rem;">
+                수많은 광고와 혼탁한 정보 속에서 소비자가 주도권을 잡는 유일한 방법은 객관적 사실의 비교입니다. 셔츠룸, 가라오케, 룸싸롱의 실제 운영 방식과 비용 구조, 그리고 내상 예방을 위한 핵심 체크리스트를 공개합니다.
+            </p>
+        </section>
+
+        <!-- WARNING BANNER -->
+        <section class="col-12">
+            <div class="warning-banner">
+                <h3>소비자 경보: 유흥 이용 주의사항</h3>
+                <p>사전 유선 문의 시 구체적인 '최종 정산 가격'을 확답받지 않거나, 위생 상태 점검을 생략할 경우 불필요한 추가 요금이 청구될 수 있습니다. 반드시 아래의 대조표를 확인하십시오.</p>
+            </div>
+        </section>
+
+        <!-- COMPARISON MATRIX -->
+        <section id="comparison" class="col-12">
+            <h2>서울 야간 업종 핵심 비교 매트릭스</h2>
+            <p>각 업종의 고유한 특성과 비용 청구 구조를 비교하여 불필요한 지출을 방지하십시오.</p>
+            
+            <div class="ledger-table-wrapper">
+                <table class="ledger-table">
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>셔츠룸 (Shirt Room)</th>
+                            <th>가라오케 (Karaoke)</th>
+                            <th>퍼블릭 / 룸싸롱 (Room Salon)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <strong><td>기본 가격 구조</td></strong>
+                            <td>시간제 고정 테이블 비용 + TC 별도 청구</td>
+                            <td>세트 단위 주류 비용 중심 + 시간당 룸비</td>
+                            <td>시간당 고정 단가 + 인원별 세부 정산</td>
+                        </tr>
+                        <tr>
+                            <strong><td>주요 이용 주의사항</td></strong>
+                            <td><span class="highlight-red">티셔츠 교체 타임 전후 추가 봉사료 요구 주의</span></td>
+                            <td>주류 추가 시 발생하는 가파른 마진 상승 주의</td>
+                            <td>웨이터 팁 및 보조 인원 비용 사전 확정 필수</td>
+                        </tr>
+                        <tr>
+                            <strong><td>위생 관리 수준</td></strong>
+                            <td>밀폐성이 높아 환기 및 글라스 청결도 확인 필요</td>
+                            <td>대형 매장이 많으나 마이크 커버 교체 확인 필수</td>
+                            <td>고가 업종일수록 식기류 위생 수준은 상대적 우수</td>
+                        </tr>
+                        <tr>
+                            <strong><td>내상 위험도</td></strong>
+                            <td>중간 (추가 옵션 강요 가능성 존재)</td>
+                            <td>낮음 (주류 정찰제 기준 시 안전성 확보)</td>
+                            <td>높음 (빌지 발행 시 불투명한 항목 추가 빈번)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- DEEP DIVE SECTION: SHIRT ROOM WARNINGS -->
+        <section id="warnings" class="col-6">
+            <div class="r-item-2lm1">
+                <h3>셔츠룸 이용 시 필수 주의사항</h3>
+                <p>셔츠룸은 정형화된 시스템으로 운영되나, 일부 비정상적 매장에서 변칙적인 요금 부과를 시도합니다. 다음 세 가지를 반드시 기억하십시오.</p>
+                <ul class="checklist">
+                    <li><strong>첫 1타임 비용의 투명성:</strong> 입장 전에 웨이터나 담당자에게 룸비, 주류비, TC가 모두 포함된 총액을 문자로 남겨두십시오.</li>
+                    <li><strong>시간 연장(연타) 시의 요금 변동:</strong> 연장 안내 시 최초 약속된 금액과 동일한 기준으로 계산되는지 명확히 짚고 넘어가야 합니다.</li>
+                    <li><strong>위생적인 개인 잔 사용:</strong> 밀폐된 룸 내에서 음료를 마실 때 잔의 세척 상태를 즉각 확인하고 미흡할 시 교체를 요구하십시오.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- DEEP DIVE SECTION: KARAOKE PRICING -->
+        <section class="col-6">
+            <div class="r-item-2lm1">
+                <h3>가라오케 가격의 숨겨진 진실</h3>
+                <p>가라오케는 상대적으로 진입 장벽이 낮고 투명해 보이지만, 방심할 경우 청구서에 과도한 금액이 기재될 수 있습니다.</p>
+                <ul class="checklist">
+                    <li><strong>주류 세트 구성 확인:</strong> 기본 제공되는 주류 외에 음료수나 안주 추가 시 비용이 별도로 발생하는지 사전 조율이 필요합니다.</li>
+                    <li><strong>시간 초과 시 자동 청구:</strong> 이용 시간이 종료되기 10~20분 전 사전 고지 여부를 확인하여 불필요한 추가 시간 비용 청구를 막으십시오.</li>
+                    <li><strong>중개인(브로커) 이용 지양:</strong> 검증되지 않은 인터넷 카페나 SNS를 통한 예약은 중간 수수료가 붙어 가격이 폭등하는 주원인이 됩니다.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- HYGIENE & SCAM CHECKLIST -->
+        <section id="checklist" class="col-12">
+            <div class="r-item-2lm1" style="background: var(--ledger-gray);">
+                <h2 style="border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">위생 및 예약 사기 예방 최종 체크리스트</h2>
+                <p>이용 직전, 현장에서 이 세 가지만 점검해도 금전적 피해와 위생상의 불쾌함을 90% 이상 예방할 수 있습니다.</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                    <div>
+                        <h4 style="font-weight: 800; margin-bottom: 0.5rem; color: var(--accent-color);">01. 선입금 요구 전면 거부</h4>
+                        <p style="font-size: 0.95rem;">어떠한 명목으로든 예약을 위한 선입금이나 예약금을 요구하는 곳은 사기 유령 매장일 확률이 매우 높습니다. 결제는 반드시 현장에서 서비스 이용 후 직접 진행하십시오.</p>
+                    </div>
+                    <div>
+                        <h4 style="font-weight: 800; margin-bottom: 0.5rem; color: var(--accent-color);">02. 식기 및 마이크 위생 점검</h4>
+                        <p style="font-size: 0.95rem;">룸 입장 직후 글라스 잔의 이물질 여부, 마이크 위생 커버의 신규 교체 여부를 직접 눈으로 확인하십시오. 이는 단순한 청결의 문제를 넘어 업장의 전반적인 관리 수준을 대변합니다.</p>
+                    </div>
+                    <div>
+                        <h4 style="font-weight: 800; margin-bottom: 0.5rem; color: var(--accent-color);">03. 빌지(Bill) 정밀 대조</h4>
+                        <p style="font-size: 0.95rem;">결제 전 반드시 상세 내역이 적힌 영수증(빌지)을 요청하여 최초 합의된 주류 수량, TC, 룸비와 일치하는지 대조하십시오. 구두 정산은 분쟁의 씨앗이 됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section class="col-12">
+            <h2>자주 묻는 질문 (FAQ)</h2>
+            <div class="r-item-2lm1" style="padding: 1rem 2.5rem;">
+                
+                <div class="faq-item">
+                    <div class="faq-question"><span>Q.</span> 서울 지역 유흥 업종 이용 시 가격 덤터기를 피하는 가장 확실한 방법은 무엇인가요?</div>
+                    <div class="faq-answer">
+                        가장 확실한 방법은 담당 부장이나 영업진과의 소통 내역(문자, 메신저 등)에 구체적인 주류 세트 구성, 인원수, 시간당 비용, 총 결제 예정 금액을 명시적으로 남겨두는 것입니다. 현장에서 말이 바뀔 경우 이 기록이 유일한 방어 수단이 됩니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question"><span>Q.</span> 셔츠룸 주의사항 중 가장 빈번하게 발생하는 내상 사례는 무엇인가요?</div>
+                    <div class="faq-answer">
+                        최초 안내받은 시간(예: 60분 또는 90분)이 채워지지 않았음에도 불구하고 서둘러 퇴실을 유도하거나, 연장 의사를 명확히 밝히지 않았는데도 자동으로 연장 처리하여 추가 비용을 청구하는 사례가 가장 빈번합니다. 시간 체크는 소비자가 직접 하셔야 안전합니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question"><span>Q.</span> 위생 체크리스트에서 음료 및 주류 상태를 확인해야 하는 이유는 무엇인가요?</div>
+                    <div class="faq-answer">
+                        일부 양심 없는 업소의 경우 개봉된 주류를 재사용하거나 가짜 양주를 섞어 파는 경우가 존재합니다. 주류는 반드시 본인이나 일행이 보는 앞에서 개봉하도록 요청하시는 것이 위생과 안전 측면에서 필수적입니다.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
+            <p style="font-weight: 700; margin-bottom: 1rem; color: var(--text-color);">SEOUL NIGHTLIGHT LEDGER</p>
+            <p style="margin-bottom: 1.5rem;">본 사이트는 서울 내 야간 유흥 업종의 건전하고 투명한 소비 문화를 지향하며, 어떠한 불법 알선이나 예약 대행도 진행하지 않는 정보 제공형 블로그입니다. 이용 전 주의사항과 위생 수칙을 철저히 준수하시어 안전한 소비를 도모하시기 바랍니다.</p>
+            <p>© 2024 Verified Nightlife Ledger. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
