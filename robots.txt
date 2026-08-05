@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://archive-note.go-apgujeong-nrb.xyz/sitemap.xml
+Sitemap: https://archive-note.go-apgujeong-nrb.xyz/sitemap-pages.xml

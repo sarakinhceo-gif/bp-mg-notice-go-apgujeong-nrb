@@ -1,62 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/blog-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/blog-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/blog-3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/</loc>
-    <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://archive-note.go-apgujeong-nrb.xyz/about.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://archive-note.go-apgujeong-nrb.xyz/blog-1.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://archive-note.go-apgujeong-nrb.xyz/blog-2.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://archive-note.go-apgujeong-nrb.xyz/blog-3.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/field_note-001-z7xj45.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/field_note-002-55p2wq.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/guide-001-p4x7if.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/guide-005-1gd037p.html</loc>
-    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/major_compare-002-1ucj55s.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/major_compare-003-mgmuuu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/myth-004-5rvxes.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/myth-005-1yr05lx.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/qa-003-uj4ly.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/qa-004-tfg4dl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
