@@ -36,12 +36,27 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/field_note-005-1h0it19.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/guide-001-p4x7if.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/guide-004-1fmysnh.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/guide-005-1gd037p.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/major_compare-001-1fojttg.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -56,12 +71,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/myth-003-pkfnt.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/myth-004-5rvxes.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/myth-005-1yr05lx.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://archive-note.go-apgujeong-nrb.xyz/posts/qa-002-u727qt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
